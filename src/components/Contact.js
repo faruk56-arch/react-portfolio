@@ -80,11 +80,11 @@ const Contact = () => {
 
     } else {
 
-      emailjs.send('service_fhvphpd', 'template_oty3k4z', {
+      emailjs.send('service_j2lhc7o', 'template_37zdfra', {
         from_name: formName,
         message: formMessage,
         email: formEmail
-      }, 'user_xxoeEUzppUfPrFlGcOgaW')
+      }, 'U3nplhed1z3c0uc2L')
         .then((result) => {
           console.log(result.text);
         }, (error) => {
